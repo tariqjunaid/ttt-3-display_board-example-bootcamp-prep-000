@@ -30,7 +30,6 @@ describe '/lib/display_board.rb' do
       expect(output).to include("-----------")
     end
 
-clear
 output = capture_puts{ display_board }
 
       expected_output  = "   |   |   \n"
