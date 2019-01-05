@@ -5,6 +5,6 @@ def display_board
   "   |   |   \n"
   "-----------\n"
   "   |   |   \n"
+  
+  display_board
 end
-
-display_board
