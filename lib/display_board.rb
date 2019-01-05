@@ -5,6 +5,5 @@ def display_board
   puts "   |   |   \n"
   puts "-----------\n"
   puts "   |   |   \n"
-  
-  display_board
+  "#{display_board}"
 end
