@@ -30,6 +30,7 @@ describe '/lib/display_board.rb' do
       expect(output).to include("-----------")
     end
 
+    it 'prints a 3x3 tic tac toe board' do
       output = capture_puts{ display_board }
 
       expected_output  = "   |   |   \n"
